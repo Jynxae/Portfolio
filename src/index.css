@@ -1,3 +1,12 @@
+/* Import Montserrat font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+/* Apply Montserrat font to body */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Include Tailwind CSS styles */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
