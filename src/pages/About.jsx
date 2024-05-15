@@ -1,17 +1,34 @@
 import React from "react";
-import { FaLocationDot } from "react-icons/fa6";
 
 function About() {
   return (
-    <div className="pl-32">
-      <h1 className="flex text-7xl font-light pt-40">Hey, I'm Reem!</h1>
-      <p className="text-lg pt-9">
-        I'm a Software Engineer intern at Boeing starting Summer 2024! <br></br>
-        I'm entering my senior year at the University of Houston as a Computer
-        Science major<br></br> with a minor in Mathematics.
-      </p>
-      <div className=" flex pt-3 text-lg">
-        <FaLocationDot /> Houston, TX
+    <div className="flex justify-end mt-12 py-12 bg-gray-100 relative">
+      <div className="absolute top-3 left-2/4 bg-gray-200 rounded-3xl px-3 py-1 mt-3">
+        About Me
+      </div>
+      <div className="flex flex-col justify-end pr-12 mt-3">
+        <h1 className="text-3xl">Here's some more about me :D</h1>
+        <p className="mt-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse numquam
+          quibusdam <br></br>voluptas excepturi aut error architecto autem,
+          eligendi nobis nam earum quidem <br></br>mollitia dolorum commodi
+          asperiores nisi minima facilis quo. Lorem, ipsum dolor sit amet
+          <br></br>consectetur adipisicing elit.<br></br>
+          <br></br>Ut dolorem quam nam debitis, <br></br>
+          amet animi blanditiis quis saepe distinctio possimus eius molestias
+          exercitationem <br></br>quisquam suscipit eveniet perspiciatis.
+          Ducimus voluptatum excepturi<br></br> explicabo, culpa, obcaecati,
+          laudantium odio facere nostrum odit quisquam <br></br>iste. Dolore ad
+          libero officia excepturi provident iusto in quas fuga<br></br>{" "}
+          asperiores, modi velit dicta alias magnam nulla quaerat<br></br> non
+          quam incidunt accusamus ex facere perspiciatis <br></br>odio iste
+          eaque voluptate.<br></br> <br></br>Nobis sequi eum minima! Sequi
+          cupiditate <br></br>
+          hic, voluptas quo modi similique perferendis labore neque<br></br>{" "}
+          quisquam possimus distinctio mollitia vero aut <br></br>incidunt
+          temporibus inventore maiores nulla eaque accusamus<br></br> pariatur
+          quae voluptatum. Suscipit!
+        </p>
       </div>
     </div>
   );
