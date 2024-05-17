@@ -1,5 +1,6 @@
 import React from "react";
 import Museum from "../Images/Museum.jpg"; // Import your image file
+import PiplupSite from "../Images/piplup.png"; // Import your image file
 
 function Projects() {
   return (
@@ -49,6 +50,35 @@ function Projects() {
           </div>
           <div className="bg-gray-200 rounded-3xl pl-4 pt-2 w-36 h-10">
             Vercel/Render
+          </div>
+        </div>
+        <div className="row-span-2 mt-12">
+          <img
+            src={PiplupSite}
+            alt="Databases Project for COSC 3380"
+            className="w-full h-96 rightrounded-lg"
+          />
+        </div>
+        <div className="mt-12">
+          <h1 className="font-bold">Piplup Travel Site</h1>
+          <p className="mt-6 mr-6">
+            This project was made during the CodeRED 2024 Hackathon! This site
+            uses an API that allows users to find the cheapest flight depending
+            on where they want to fly from/to. This was my gateway into web
+            development and got hands-on experience with learning about react
+            for the frontend and poking around in backend. Here are some of the
+            tools/languages we used below.
+          </p>
+        </div>
+        <div className="grid grid-cols-5">
+          <div className="bg-gray-200 rounded-3xl pl-4 pt-2 w-20 h-10">
+            React
+          </div>
+          <div className="bg-gray-200 rounded-3xl pl-4 pt-2 w-24 h-10">
+            Tailwind
+          </div>
+          <div className="bg-gray-200 rounded-3xl pl-4 pt-2 w-24 h-10">
+            Node.js
           </div>
         </div>
       </div>
