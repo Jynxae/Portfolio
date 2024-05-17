@@ -17,11 +17,11 @@ function Home() {
           <FaLocationDot /> Houston, TX
         </div>
       </div>
-      <div className="h-72 w-72 rounded-full overflow-hidden ml-36 mt-28">
+      <div className="h-96 w-96 rounded-full overflow-hidden ml-36 mt-20 shadow-2xl">
         <img
           src={profileImage}
           alt="This is me! Reem Alkhaliy"
-          className="object-cover h-full w-full"
+          className="object-cover h-full w-full shadow-2xl"
         />
       </div>
     </div>
