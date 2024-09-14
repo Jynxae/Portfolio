@@ -16,27 +16,18 @@ function About() {
           />
         </div>
         {/* Keep the heading and paragraph on the right */}
-        <div className="flex flex-col justify-end">
+        <div className="flex flex-col justify-end ml-96">
           <h1 className="text-3xl">Here's some more about me :D</h1>
           <p className="mt-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
-            numquam quibusdam <br></br>voluptas excepturi aut error architecto
-            autem, eligendi nobis nam earum quidem <br></br>mollitia dolorum
-            commodi asperiores nisi minima facilis quo. Lorem, ipsum dolor sit
-            amet <br></br>consectetur adipisicing elit.<br></br>
-            <br></br>Ut dolorem quam nam debitis, <br></br> amet animi
-            blanditiis quis saepe distinctio possimus eius molestias
-            exercitationem <br></br>quisquam suscipit eveniet perspiciatis.
-            Ducimus voluptatum excepturi<br></br> explicabo, culpa, obcaecati,
-            laudantium odio facere nostrum odit quisquam <br></br>iste. Dolore
-            ad libero officia excepturi provident iusto in quas fuga<br></br>{" "}
-            asperiores, modi velit dicta alias magnam nulla quaerat<br></br> non
-            quam incidunt accusamus ex facere perspiciatis <br></br>odio iste
-            eaque voluptate.<br></br> <br></br>Nobis sequi eum minima! Sequi
-            cupiditate <br></br> hic, voluptas quo modi similique perferendis
-            labore neque<br></br> quisquam possimus distinctio mollitia vero aut{" "}
-            <br></br>incidunt temporibus inventore maiores nulla eaque accusamus
-            <br></br> pariatur quae voluptatum. Suscipit!
+            I'm deeply involved in campus life at UH! Currently, I serve as the
+            President of Computer Science Girls, a club dedicated to supporting
+            women and underrepresented minorities in STEM. I love helping my
+            peers grow professionally and form lasting friendships. At my
+            internship, I work with the JSL network engineering team to maintain
+            the connection between the ISS and ground stations, automating
+            processes to reduce human error and make astronauts' work easier.
+            Outside of school and work, you'll likely find me exploring coffee
+            shops around Houston, rating them on weekends.
           </p>
         </div>
       </div>
