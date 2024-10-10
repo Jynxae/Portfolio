@@ -1,29 +1,31 @@
-import React from "react";
-import { FaLocationDot } from "react-icons/fa6";
-import profileImage from "../Images/pfp.jpg"; // Import your profile image
+import React, { useState, useEffect } from "react";
 
 function Home() {
+  const [cursor, setCursor] = useState(false);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCursor((prevCursor) => !prevCursor);
+    }, 500);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
+
   return (
-    <div className="pl-32 flex">
-      <div className="flex flex-col">
-        <h1 className="text-7xl font-light pt-40">Hey, I'm Reem!</h1>
-        <p className="text-lg pt-9">
-          I'm a Software Engineer intern at Boeing starting Summer 2024!{" "}
-          <br></br>
-          I'm entering my senior year at the University of Houston as a Computer
-          Science major<br></br> with a minor in Mathematics.
-        </p>
-        <div className="flex pt-3 text-lg">
-          <FaLocationDot /> Houston, TX
-        </div>
-      </div>
-      <div className="h-96 w-96 rounded-full overflow-hidden ml-36 mt-20 shadow-2xl">
-        <img
-          src={profileImage}
-          alt="This is me! Reem Alkhaliy"
-          className="object-cover h-full w-full shadow-2xl"
+    <div className="bg-[#FFFBE9] h-screen w-screen text-7xl pl-12 pt-12">
+      <h1 className="text-[#AD8B73]">&gt; Hey! Curious to see my website?</h1>
+      <h1 className="text-[#AD8B73]">&gt; Please type “.run” to open it.</h1>
+      <label className="text-[#AD8B73]">
+        &gt;
+        <span className="inline-block">{cursor ? "|" : " "}</span>
+        <input
+          type="text"
+          name="command"
+          className="inline-block bg-transparent outline-none caret-transparent"
         />
-      </div>
+      </label>
     </div>
   );
 }
