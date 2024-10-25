@@ -1,9 +1,11 @@
 import React from "react";
-import Museum from "../Images/Museum.jpg"; // Import your image file
-import PiplupSite from "../Images/piplup.png"; // Import your image file
 
 function Projects() {
-  return <div className="bg-[#FFFBE9] h-screen w-screen"></div>;
+  return (
+    <div className="bg-[#FFFBE9] h-screen w-screen">
+      <h2 className="text-[#AD8B73] text-6xl pt-24 pl-24">&gt; Projects</h2>
+    </div>
+  );
 }
 
 export default Projects;

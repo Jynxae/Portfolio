@@ -7,7 +7,7 @@ function Opening() {
   const handleKeyDown = (e) => {
     if (e.key === "Enter") {
       if (input === ".run") {
-        window.location.href = "/About";
+        window.location.href = "/main";
       }
     }
   };
