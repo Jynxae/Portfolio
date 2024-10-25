@@ -1,7 +1,16 @@
 import React, { useState, useEffect } from "react";
 
-function Home() {
+function Opening() {
   const [cursor, setCursor] = useState(false);
+  const [input, setInput] = useState("");
+
+  const handleKeyDown = (e) => {
+    if (e.key === "Enter") {
+      if (input === ".run") {
+        window.location.href = "/About";
+      }
+    }
+  };
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -23,6 +32,9 @@ function Home() {
         <input
           type="text"
           name="command"
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          onKeyDown={handleKeyDown}
           className="inline-block bg-transparent outline-none caret-transparent"
         />
       </label>
@@ -30,4 +42,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Opening;
