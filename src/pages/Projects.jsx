@@ -24,9 +24,9 @@ function Projects() {
   return (
     <div className="bg-[#FFFBE9] py-2 w-screen">
       <h2 className="text-[#AD8B73] text-6xl pt-24 pl-24">&gt; Projects</h2>
-      <ul className="text-[#CEAB93] text-4xl pl-32 pt-12">
+      <ul className="text-[#C49673] text-4xl pl-32 pt-12">
         <li>
-          <span className="text-5xl">PiggyBank</span>
+          <span className="text-5xl font-bold">PiggyBank</span>
           <br />
           The PiggyBank App is a budgeting tool that helps users log
           transactions, <br></br>set budgets, and track spending habits. It
@@ -95,7 +95,7 @@ function Projects() {
           </button>
         </li>
         <li className="mt-12">
-          <span className="text-5xl">The Baker Museum</span>
+          <span className="text-5xl font-bold">The Baker Museum</span>
           <br />
           The Baker Museum is a web app that manages and displays museum
           collections. <br></br>It lets users browse and search artworks, while

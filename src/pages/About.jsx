@@ -12,9 +12,9 @@ function About() {
       </h1>
 
       <h2 className="text-[#AD8B73] text-6xl pt-24 pl-24">&gt; About Me</h2>
-      <p className="text-[#CEAB93] text-4xl pl-32 pt-12">
+      <p className="text-[#C49673] text-4xl pl-32 pt-12">
         Hey! I’m Reem Alkhalily, a senior at the University of <br></br>Houston
-        studying Computer Science with a minor ind<br></br> Mathematics. I’m a
+        studying Computer Science with a minor in<br></br> Mathematics. I’m a
         huge foodie, mother of two cats, <br></br>and aerospace fan!
       </p>
     </div>

@@ -6,10 +6,10 @@ function Experience() {
       <h2 className="text-[#AD8B73] text-6xl pt-24 pl-24">
         &gt; Work Experience
       </h2>
-      <ul className="text-[#CEAB93] text-4xl pl-32 pt-12">
+      <ul className="text-[#C49673] text-4xl pl-32 pt-12">
         <li>
           Software Engineer Intern - NASA <br />
-          <span className="text-[#E3CAA5]">May 2024 - Present</span>
+          <span className="text-[#E4B567]">May 2024 - Present</span>
           <br />
           Developed a Python-based automation tool for network configuration,
           <br></br>
@@ -22,7 +22,7 @@ function Experience() {
         <br></br>
         <li>
           Teaching Assistant - University of Houston<br></br>
-          <span className="text-[#E3CAA5]">January 2024 - Present</span>
+          <span className="text-[#E4B567]">January 2024 - Present</span>
           <br></br>
           Led lab sessions for 120 students, reinforcing programming concepts
           and <br></br>providing personalized assistance. Managed TA duties
