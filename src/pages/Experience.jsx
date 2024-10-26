@@ -11,20 +11,23 @@ function Experience() {
           Software Engineer Intern - NASA <br />
           <span className="text-[#E3CAA5]">May 2024 - Present</span>
           <br />
-          I’m assisting the JSL network team to develop a program to streamline
-          <br></br> the process of a network configuration tool to minimize
-          human error using <br></br>SQLite, Python, and React. Additionally, I
-          am currently creating an internal <br></br>application to analyze data
-          given by Wireshark to calculate data using <br></br>Pandas, SQLite,
-          and pyQT.
+          Developed a Python-based automation tool for network configuration,
+          <br></br>
+          reducing processing time by 30%. Designed a relational database using
+          <br></br>
+          SQLite to enhance data access, and utilized Pandas and Polars for
+          efficient <br></br>data analysis, generating visual insights from
+          network data.
         </li>
         <br></br>
         <li>
           Academic Support Assistance - University of Houston<br></br>
           <span className="text-[#E3CAA5]">January 2024 - Present</span>
-          <br></br>Supported over 240+ students by leading weekly labs teaching
-          the <br></br>fundamentals of C++ programming in addition to providing
-          <br></br> individualized feedback and one-on-one assistance.
+          <br></br>
+          Led lab sessions for 120 students, reinforcing programming concepts
+          and <br></br>providing personalized assistance. Managed TA duties
+          alongside <br></br>coursework, dedicating 5 hours weekly to support an
+          introductory <br></br>programming course.
         </li>
       </ul>
     </div>
