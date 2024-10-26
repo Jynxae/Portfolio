@@ -36,7 +36,7 @@ function Contact() {
   };
 
   return (
-    <div className="bg-[#FFFBE9] py-12 w-screen">
+    <div className="bg-[#FFFBE9] py-2 w-screen">
       <h2 className="text-[#AD8B73] text-6xl pt-24 pl-24">&gt; Contact</h2>
       <form onSubmit={handleSubmit} className="pl-32">
         <input

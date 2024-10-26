@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="bg-[#FFFBE9] py-12 w-screen">
+    <div className="bg-[#FFFBE9] py-2 w-screen">
       <h1 className="text-[#AD8B73] text-7xl pt-24 pl-24">
         I'm Reem <br></br>Alkhalily!
       </h1>
