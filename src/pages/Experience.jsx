@@ -21,7 +21,7 @@ function Experience() {
         </li>
         <br></br>
         <li>
-          Teaching Assistance - University of Houston<br></br>
+          Teaching Assistant - University of Houston<br></br>
           <span className="text-[#E3CAA5]">January 2024 - Present</span>
           <br></br>
           Led lab sessions for 120 students, reinforcing programming concepts
