@@ -1,12 +1,9 @@
-/* Import Montserrat font */
 @import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
 
-/* Apply Montserrat font to body */
 body {
   font-family: 'Jersey 15', sans-serif;
 }
 
-/* Include Tailwind CSS styles */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

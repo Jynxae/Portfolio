@@ -66,12 +66,10 @@ function Contact() {
           required
         />
 
-        {/* Submit Button */}
         <button type="submit" className="block p-2 bg-[#AD8B73] text-white">
           Send
         </button>
 
-        {/* Display status message */}
         {status && <p className="mt-4 text-green-500">{status}</p>}
       </form>
     </div>
