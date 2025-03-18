@@ -6,6 +6,7 @@ import MonthlyReport from "../Images/MonthlyReport.png";
 import ProfileView from "../Images/ProfileView.png";
 import SettingsView from "../Images/SettingsView.png";
 import EditBudgetView from "../Images/EditBudgetView.png";
+import SpaceGuard from "../Images/Space Guard.png";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -89,11 +90,40 @@ function Projects() {
             onClick={() =>
               window.open("https://github.com/Jynxae/Team1_BudgetApp", "_blank")
             }
+            className="mr-5 mt-7 mb-9 px-4 py-2 bg-[#AD8B73] text-white rounded hover:bg-[#CEAB93] transition duration-300"
+          >
+            View Code
+          </button>
+        </li>
+
+        <li>
+          <span className="text-5xl font-bold">Space Guard</span>
+          <br />
+          Space Guard empowers casual astronomers to track and discover debris,
+          <br></br>
+          aiding NASA in identifying potential hazards. With thousands of debris{" "}
+          <br></br>
+          pieces orbiting Earth, it's impossible for NASA to monitor them all.{" "}
+          <br></br>
+          Space Guard bridges this gap, providing critical data on untracked
+          debris<br></br> that might pose future risks.
+          <div className="flex row">
+            <img
+              src={SpaceGuard}
+              className="h-1/3 w-2/3 mt-3"
+              alt="Space Guard"
+            />
+          </div>
+          <button
+            onClick={() =>
+              window.open("https://github.com/Jynxae/JSCHack", "_blank")
+            }
             className="mr-5 mt-7 px-4 py-2 bg-[#AD8B73] text-white rounded hover:bg-[#CEAB93] transition duration-300"
           >
             View Code
           </button>
         </li>
+
         <li className="mt-12">
           <span className="text-5xl font-bold">The Baker Museum</span>
           <br />
