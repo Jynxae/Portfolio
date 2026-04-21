@@ -1,7 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&display=swap');
+
+:root {
+  --cream-50:  #FFFDF4;
+  --cream-100: #FFFBE9;
+  --cream-200: #F7EFD6;
+  --cream-300: #EADFC0;
+  --latte-200: #E3CAA5;
+  --latte-300: #CEAB93;
+  --latte-400: #C49673;
+  --earth-500: #AD8B73;
+  --earth-600: #8C6E57;
+  --earth-700: #6B5240;
+  --earth-800: #3D2E22;
+  --earth-900: #231812;
+  --honey-500: #E4B567;
+  --honey-600: #C99340;
+  --rust-500:  #B5643A;
+  --moss-500:  #7A8A5C;
+  --sky-500:   #5C7A8A;
+
+  --bg:           var(--cream-100);
+  --bg-elevated:  var(--cream-50);
+  --bg-inset:     var(--cream-200);
+  --bg-terminal:  var(--earth-800);
+  --fg:           var(--earth-600);
+  --fg-strong:    var(--earth-700);
+  --fg-display:   var(--earth-500);
+  --fg-muted:     var(--latte-400);
+  --fg-subtle:    var(--latte-300);
+  --fg-inverted:  var(--cream-100);
+  --border:       var(--cream-300);
+  --border-strong:var(--earth-500);
+  --divider:      var(--latte-200);
+  --accent:       var(--earth-500);
+  --accent-hover: var(--latte-300);
+  --prompt:       var(--earth-500);
+  --cursor:       var(--earth-500);
+  --caret:        var(--honey-500);
+
+  --font-mono:    'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  --font-display: 'Jersey 15', 'Courier New', monospace;
+  --font-serif:   'Fraunces', Georgia, serif;
+}
 
 body {
-  font-family: 'Jersey 15', sans-serif;
+  font-family: var(--font-mono);
+  background: var(--bg);
+  color: var(--fg);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: #E4B56755;
+  color: var(--fg-strong);
 }
 
 @tailwind base;
