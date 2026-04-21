@@ -152,7 +152,7 @@ const projects = {
     title: "Space Guard",
     desc: "Empowers casual astronomers to report and track orbital debris — supporting NASA in identifying potential hazards in low Earth orbit.",
     year: "2024",
-    tags: [, "React", "Node.js", "Tailwind CSS", "Express.js", "MySQL"],
+    tags: ["React", "Node.js", "Tailwind CSS", "Express.js", "MySQL"],
     code: "https://github.com/Jynxae/JSCHack",
     images: [SpaceGuard],
     kind: "full",
